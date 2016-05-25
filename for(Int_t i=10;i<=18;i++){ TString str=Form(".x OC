@@ -1,0 +1,7 @@
+for(Int_t i=10;i<=18;i++){ TString str=Form("\".x OCDBParserWithScalers4.C (kTRUE,\\"2015_all_physics_split%d\\",2015)\"",i); gROOT->ProcessLine(str.Data());};
+
+for(Int_t i=10;i<=18;i++){ TString str=Form("\".x OCDBParserWithScalers4.C (kTRUE,\\\"2015_all_physics_split%d\\\",2015)\"",i); cout<<str.Data()<<endl;};
+
+for(Int_t i=10;i<=18;i++){ TString str=Form("\".x OCDBParserWithScalers4.C (kTRUE,\\\"2015_all_physics_split%d\\\",2015)\"",i); gROOT->ProcessLine(str.Data());};
+
+for(Int_t i=10;i<=18;i++){gROOT->ProcessLine(Form(".x OCDBParserWithScalers4.C (kTRUE,\"2015_all_physics_split%d\",2015)",i));};
